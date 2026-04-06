@@ -1,0 +1,10 @@
+[
+  {
+    "client_id": "Blacklisted 1",
+    "redirect_uri": "3"
+  },
+  {
+    "client_id": "Blacklisted 2",
+    "redirect_uri": "4"
+  }
+]

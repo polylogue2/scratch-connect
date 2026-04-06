@@ -1,0 +1,10 @@
+[
+  {
+    "client_id": "Turbowarp",
+    "redirect_uri": "1"
+  },
+  {
+    "client_id": "Scratch",
+    "redirect_uri": "2"
+  }
+]
