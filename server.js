@@ -20,7 +20,6 @@ function encryptPayload(payload) {
   const payloadStr = JSON.stringify(payload);
   const encrypted = Buffer.concat([cipher.update(payloadStr, 'utf-8'), cipher.final()]);
   const tag = cipher.getAuthTag();
-  // Token format: iv + tag + ciphertext (all base64url)
   return `${iv.toString('base64url')}.${tag.toString('base64url')}.${encrypted.toString('base64url')}`;
 }
 
@@ -138,5 +137,5 @@ app.get('/api/verifyToken', (req, res) => {
 });
 
 app.listen(8080, () => {
-  console.log('REST API server running on port 8080');
+  console.log('\x1b[38;5;214m\x1b[2mScratch Connect\x1b[0m API server running on port 8080');
 });
