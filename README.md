@@ -11,8 +11,9 @@
 
 <h2 id="Documentation">Documentation</h2>
 
-<h2 id="open-source">Open Source</h2>
-> [!IMPORTANT]  
-> You must set your own CIPHER_SECRET in the environment variables (.env),
-> which is 32 byte key used to encrypt and verify tokens. 
+## Open Source
+
+> [!IMPORTANT]
+> You must set your own `CIPHER_SECRET` in the environment variables (`.env`),
+> which is a 32-byte key used to encrypt and verify tokens.
 <p>© MMXXVI <a href="https://alwaysdns.net/?utm_source=github">polylogue</a>
